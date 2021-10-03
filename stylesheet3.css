@@ -1,0 +1,65 @@
+.page{
+    width: 95%;
+    height: 900px;
+    background-color: white;
+    margin-left: 2%;
+    margin-top: 2%;
+    border: 1px white solid;
+    border-radius: 10px;
+}
+nav{
+   padding-top: 0.5%;
+
+}
+nav li{
+    display: inline-block;
+    list-style-type: none;
+    border: 1px solid #282727;
+    background-color: #2d2d2d;
+    width: 13%;
+    height: 20px;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-right: 1%;
+    margin-bottom:1%;
+    font-size: 23px;
+}
+nav a{
+    color:white;
+    text-decoration: none;
+}
+#specific{
+    background-color: green;
+    border-color: green;
+}
+a:hover{
+    font-weight: bold;
+}
+.section{
+    margin-left: 2%;
+}
+.section h1, h2{
+color: green;
+}
+.sidebar{
+    width: 94%;
+    height: 130px;
+    border: 1px solid darkgrey;
+    background-color: #ececec;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+footer{
+    width: 94%;
+
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+footer p{
+    text-align: center;
+}

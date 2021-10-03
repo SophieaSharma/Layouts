@@ -1,0 +1,114 @@
+.page{
+    margin: 3%;
+    height: 850px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+/*header*/
+header{
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 2%;
+    border: 1px solid green;
+    border-radius: 10px;
+    background-color: green;
+    height: 100px;
+    padding-bottom: 2%;
+    padding-left: 2%;
+
+}
+header h1,p{
+    text-align: center;
+    cursor: auto;
+}
+header p{
+    font-size: 19px;
+    text-align: center;
+}
+/* sidebar*/
+.sidebar{
+    display: inline-block;
+    float: left;
+    width: 20%;
+    height: 350px;
+}
+.sidebar li{
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    background-color: lightgrey;
+    width: 40%;
+    list-style-type: none;
+    margin-bottom: 1%;
+    height: 30px;
+    text-align: center;
+}
+#specific{
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    background-color: green;
+    width: 40%;
+    list-style-type: none;
+    margin-bottom: 1%;
+    height: 30px;
+    text-align: center;
+
+}
+#specilal_list_item{
+    color: whitesmoke;
+}
+.sidebar a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.sidebar a:hover{
+    color: lightgreen;
+    font-weight: bold;
+}
+
+/*middle section*/
+.middle_section{
+    display: inline-block;
+    width: 30%;
+    /*background-color: #3f5fbf;*/
+    height: 350px;
+}
+.middle_section p{
+    text-align: left;
+    word-spacing: 10px;
+}
+/*right hand side*/
+.rhs{
+    float: right;
+    background-color: dodgerblue;
+    width: 15%;
+    padding-left: 3%;
+    height: 350px;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 1px solid dodgerblue;
+    border-radius: 10px;
+}
+.rhs h3,p{
+    text-align: left;
+}
+/*footer*/
+.footer{
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 5%;
+    padding-top: 2%;
+    border: 1px solid darkgrey;
+    border-radius: 10px;
+    background-color: lightgrey;
+    height: 90px;
+    padding-bottom: 2%;
+    padding-left: 2%;
+
+
+}
+.footer p{
+    text-align: center;
+}
